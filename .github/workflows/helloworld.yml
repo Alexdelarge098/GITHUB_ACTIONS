@@ -13,4 +13,5 @@ jobs:
         run: date
       - name: "print working directory"
         run: pwd
-      
+      - name: "Creating a file"
+        run: echo "This is a test file" > testfile.txt
